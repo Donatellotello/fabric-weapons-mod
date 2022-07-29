@@ -4,6 +4,7 @@ import net.donatellotello.tutorialmod.TutorialMod;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.SwordItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -16,6 +17,10 @@ public class ModItems {
     new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item STEEL_INGOT = registerItem("steel_ingot",
     new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+    public static final Item SCYTHE = registerItem("scythe",
+    new SwordItem(new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item HOG_SCYTHE = registerItem("hog_scythe",
+    new SwordItem(new FabricItemSettings().group(ItemGroup.COMBAT)));
 
 
 
