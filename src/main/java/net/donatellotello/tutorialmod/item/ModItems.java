@@ -10,6 +10,12 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
     public static final Item HOGLIN_TUSK = registerItem("hoglin_tusk",
     new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item HARDENED_HOGLIN_TUSK = registerItem("hardened_hoglin_tusk",
+    new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item CHAIN_BUNDLE = registerItem("chain_bundle",
+    new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+    public static final Item STEEL_INGOT = registerItem("steel_ingot",
+    new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
 
 
 
