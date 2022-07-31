@@ -1,0 +1,9 @@
+{
+  "type":"minecraft:blasting",
+  "cookingtime": 150,
+  "experience": 0.8,
+  "ingredient": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": "tutorialmod:steel_ingot"
+}

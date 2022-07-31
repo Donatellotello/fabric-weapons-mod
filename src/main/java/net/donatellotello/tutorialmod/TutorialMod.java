@@ -1,6 +1,7 @@
 package net.donatellotello.tutorialmod;
 
 import net.donatellotello.tutorialmod.item.ModItems;
+import net.donatellotello.tutorialmod.util.ModLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,5 +15,7 @@ public class TutorialMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+
+		ModLootTableModifiers.modifyLootTables();
 	}
 }

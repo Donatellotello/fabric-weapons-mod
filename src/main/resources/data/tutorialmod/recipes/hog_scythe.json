@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "tutorialmod:scythe"
+  },
+  "addition": {
+    "item": "tutorialmod:hardened_hoglin_tusk"
+  },
+  "result": {
+    "item": "tutorialmod:hog_scythe"
+  }
+}

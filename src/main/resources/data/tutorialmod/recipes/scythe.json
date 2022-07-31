@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSC",
+    " IS",
+    "I  "
+  ],
+  "key": {
+    "S": {
+      "item": "tutorialmod:steel_ingot"
+    },
+    "I": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "tutorialmod:chain_bundle"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:scythe"
+  }
+}

@@ -11,16 +11,23 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
     public static final Item HOGLIN_TUSK = registerItem("hoglin_tusk",
     new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
     public static final Item HARDENED_HOGLIN_TUSK = registerItem("hardened_hoglin_tusk",
     new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
     public static final Item CHAIN_BUNDLE = registerItem("chain_bundle",
     new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+
     public static final Item STEEL_INGOT = registerItem("steel_ingot",
     new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+
     public static final Item SCYTHE = registerItem("scythe",
-    new SwordItem(new FabricItemSettings().group(ItemGroup.COMBAT)));
+    new SwordItem(ModToolMaterials.STEEL_INGOT, 5, 0.005f,
+            new FabricItemSettings().group(ItemGroup.COMBAT)));
+
     public static final Item HOG_SCYTHE = registerItem("hog_scythe",
-    new SwordItem(new FabricItemSettings().group(ItemGroup.COMBAT)));
+    new SwordItem(ModToolMaterials.STEEL_INGOT,8, 0.01f,
+            new FabricItemSettings().group(ItemGroup.COMBAT)));
 
 
 

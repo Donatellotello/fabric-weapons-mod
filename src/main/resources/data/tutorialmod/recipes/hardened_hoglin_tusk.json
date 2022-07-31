@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HHH",
+    "HCH",
+    "HHH"
+  ],
+  "key": {
+    "C": {
+      "item": "tutorialmod:steel_ingot"
+    },
+    "H": {
+      "item": "tutorialmod:hoglin_tusk"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:hardened_hoglin_tusk"
+  }
+}
